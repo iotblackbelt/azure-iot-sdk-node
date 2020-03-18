@@ -41,9 +41,9 @@ var commonName = null;
 
 var outputFilenameRoot = null;
 
-var parentCert = null;
-var parentKey = null;
-var parentChain = null;
+var parentCert = '';
+var parentKey = '';
+var parentChain = '';
 
 if (command === 'verification') {
   commonName = argv.nonce;
